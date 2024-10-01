@@ -19,7 +19,7 @@ public class AddTable {
 
         for(row=1;row<=num;row++){
             for(col=1;col<=num;col++){
-                answer = row+col;
+                answer = row+col-1;
                 System.out.printf("%4d ", answer);
             }
             System.out.println();
